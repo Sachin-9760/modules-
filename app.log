@@ -1,0 +1,36 @@
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': 3, 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': 17} -> Age must be 18 or above
+ERROR:root:{'id': 7, 'name': 'Arjun', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 3, 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': 17} -> Age must be 18 or above
+ERROR:root:{'id': 7, 'name': 'Arjun', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 3, 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': 17} -> Age must be 18 or above
+ERROR:root:{'id': 7, 'name': 'Arjun', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 3, 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': 17} -> Age must be 18 or above
+ERROR:root:{'id': 7, 'name': 'Arjun', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 8, 'name': '', 'email': 'arjun@example.com', 'age': 15} -> Name is missing
+ERROR:root:{'id': 8, 'name': '', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 9, 'name': 'Arjun', 'email': '', 'age': 15} -> Email is invalid
+ERROR:root:{'id': 9, 'name': 'Arjun', 'email': '', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': 3, 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': 17} -> Age must be 18 or above
+ERROR:root:{'id': 7, 'name': 'Arjun', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 8, 'name': '', 'email': 'arjun@example.com', 'age': 15} -> Name is missing
+ERROR:root:{'id': 8, 'name': '', 'email': 'arjun@example.com', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': 9, 'name': 'Arjun', 'email': '', 'age': 15} -> Email is invalid
+ERROR:root:{'id': 9, 'name': 'Arjun', 'email': '', 'age': 15} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Email is invalid
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Age must be 18 or above
+ERROR:root:{'id': '9', 'name': '', 'email': 'arjun@example.com', 'age': '15'} -> Name is missing
+ERROR:root:{'id': '9', 'name': '', 'email': 'arjun@example.com', 'age': '15'} -> Age must be 18 or above
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Email is invalid
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Age must be 18 or above
+ERROR:root:{'id': '9', 'name': '', 'email': 'arjun@example.com', 'age': '54'} -> Name is missing
+ERROR:root:{'id': '3', 'name': 'rohit singh', 'email': 'rohit@example.com', 'age': '17'} -> Age must be 18 or above
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Email is invalid
+ERROR:root:{'id': '8', 'name': 'Simran', 'email': 'simranexample.com', 'age': '15'} -> Age must be 18 or above
+ERROR:root:{'id': '9', 'name': '', 'email': 'arjun@example.com', 'age': '54'} -> Name is missing

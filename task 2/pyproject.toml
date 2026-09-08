@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-observ-cli"
+version = "0.1.0"
+description = "CLI for ingesting, running, evaluating, and reporting pipeline jobs."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "click>=8.1.0",
+  "rich>=13.7.0",
+]
+
+[project.scripts]
+task-observ = "main:cli"
+
+[tool.setuptools]
+py-modules = ["main"]

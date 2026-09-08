@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "sachin kaushik",
+        "email": "sachin@example.com",
+        "age": 25
+    },
+    {
+        "id": 2,
+        "name": "rahul sharma",
+        "email": "rahul@example.com",
+        "age": 30
+    },
+    {
+        "id": 3,
+        "name": "rohit singh",
+        "email": "rohit@example.com",
+        "age": 17
+    },
+    {
+        "id": 4,
+        "name": "Aman",
+        "email": "aman@gmail.com",
+        "age": 22
+    },
+    {
+        "id": 5,
+        "name": "Anjali",
+        "email": "anjali@example.com",
+        "age": 28
+    },
+    {
+        "id": 6,
+        "name": "Neha",
+        "email": "neha@example.com",
+        "age": 20
+    },
+    {
+        "id": 7,
+        "name": "Arjun",
+        "email": "arjun@example.com",
+        "age": 15
+    },
+    {
+        "id": 8,
+        "name": "",
+        "email": "arjun@example.com",
+        "age": 15
+    },
+    {
+        "id": 9,
+        "name": "Arjun",
+        "email": "",
+        "age": 15
+    }
+
+]

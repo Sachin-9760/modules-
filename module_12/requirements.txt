@@ -1,0 +1,2 @@
+deepagents==0.7.13
+langchain==1.4.0
