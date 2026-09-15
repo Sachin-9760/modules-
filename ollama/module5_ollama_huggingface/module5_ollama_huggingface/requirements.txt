@@ -1,0 +1,5 @@
+pandas>=2.0
+requests>=2.31
+transformers>=4.40
+torch>=2.1
+jupyter>=1.0

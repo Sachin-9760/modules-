@@ -1,0 +1,7 @@
+id,text,label
+1,"The setup was quick and the results were excellent.",positive
+2,"I waited all afternoon and nothing worked.",negative
+3,"The documentation is clear, useful, and easy to follow.",positive
+4,"The update broke my workflow and support never replied.",negative
+5,"It is an ordinary tool with no major strengths or weaknesses.",neutral
+6,"The output was acceptable, but not especially impressive.",neutral
