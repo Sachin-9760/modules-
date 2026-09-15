@@ -84,7 +84,7 @@ def search_project_notes(
 
 
 @mcp.tool()
-def ycalculate(expression: Annotated[str, Field(min_length=1, max_length=100, description="Basic arithmetic expression using numbers, +, -, *, /, parentheses, and decimals.")]) -> str:
+def calculate(expression: Annotated[str, Field(min_length=1, max_length=100, description="Basic arithmetic expression using numbers, +, -, *, /, parentheses, and decimals.")]) -> str:
     """Safely evaluate a basic arithmetic expression without executing arbitrary Python code."""
     expression = expression.strip()
     if not re.fullmatch(r"[0-9+\-*/(). %]+", expression):
