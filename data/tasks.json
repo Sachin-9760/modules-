@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Read MCP server tools documentation",
+    "priority": "high",
+    "status": "todo"
+  },
+  {
+    "id": 2,
+    "title": "Connect the server to a coding host",
+    "priority": "medium",
+    "status": "todo"
+  }
+]

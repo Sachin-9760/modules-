@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "developer-productivity-mcp": {
+      "command": "C:\\Users\\DELL\\Downloads\\Module%2014(1)\\module14_mcp_server\\.venv\\Scripts\\mcp.exe",
+      "args": [
+        "run",
+        "C:\\Users\\DELL\\Downloads\\Module%2014(1)\\module14_mcp_server\\server.py"
+      ]
+    }
+  }
+}

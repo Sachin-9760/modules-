@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: module14-mcp-server
+Version: 1.0.0
+Summary: Module 14 learning project: a Python MCP server with tools, resources, prompts, and host integration.
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]<3,>=2
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"
+Requires-Dist: anyio<5,>=4; extra == "dev"

@@ -1,0 +1,14 @@
+[project]
+name = "module14-mcp-server"
+version = "1.0.0"
+description = "Module 14 learning project: a Python MCP server with tools, resources, prompts, and host integration."
+requires-python = ">=3.10"
+dependencies = [
+  "mcp[cli]>=2,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "anyio>=4,<5",
+]

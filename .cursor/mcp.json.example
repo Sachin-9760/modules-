@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "developer-productivity-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\ABSOLUTE\\PATH\\TO\\module14_mcp_server\\server.py"
+      ]
+    }
+  }
+}

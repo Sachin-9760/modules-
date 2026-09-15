@@ -1,0 +1,5 @@
+mcp[cli]<3,>=2
+
+[dev]
+pytest<9,>=8
+anyio<5,>=4
