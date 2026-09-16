@@ -1,0 +1,87 @@
+Internal Use Case: Lead Research & Personalized Outreach Assistant
+
+1. Objective
+The objective is to evaluate whether fine-tuning an LLM is justified for an internal Lead Research Assistant that helps collect structured company information, qualify leads, identify business opportunities, and generate personalized outreach.
+
+
+2. Why Fine-Tuning Is Justified
+Fine-tuning may be beneficial because the organization has a specific way of:
+Qualifying and categorizing leads
+Structuring research information
+Identifying relevant business opportunities
+Generating personalized outreach
+Following a consistent communication style
+
+A fine-tuned model could learn these recurring patterns and produce more consistent outputs with less prompt engineering.
+
+However, fine-tuning should not be the first step. A prompt-based baseline should be created first and evaluated. Fine-tuning should only be adopted if it provides measurable improvement.
+
+Important: Current company information should come from web research or retrieval systems rather than relying on information learned during fine-tuning.
+
+
+3. Data Requirements
+The training dataset should contain high-quality historical examples of successful lead research and outreach.
+Recommended fields include:
+Field	Example
+Company Name	Example SaaS Ltd.
+Industry	SaaS
+Website Summary	Workflow automation platform
+Products/Services	Automation software
+Business Signals	Growing B2B presence
+Potential Opportunity	SEO/GEO improvement
+Lead Qualification	Qualified
+Qualification Reason	Relevant business need
+Personalization Points	Company-specific observations
+Outreach Example	Personalized message
+Data Quality
+
+The dataset should be:
+Accurate and relevant
+Consistently structured
+Free from duplicates and unnecessary information
+Diverse across industries and company types
+Reviewed to remove incorrect labels and sensitive information
+
+A pilot dataset of approximately 500–1,000 high-quality examples can be used for an initial experiment.
+
+
+4. Evaluation Plan
+The fine-tuned model should be compared with the original/base model using the same test dataset.
+
+Key Evaluation Metrics
+Lead Classification Accuracy – How correctly leads are qualified.
+Output Consistency – Whether the required format and fields are followed.
+Personalization Quality – Whether outreach is relevant to the specific company.
+Factual Accuracy – Whether generated claims match the available research.
+Instruction Following – Whether the model follows the required workflow.
+Human Evaluation – Review of outputs by internal team members.
+Processing Time – Time required to process each lead.
+The dataset should be divided into training, validation, and test sets. The test data must remain separate from training.
+
+
+5. Expected Benefits
+
+If the evaluation demonstrates improvement, fine-tuning could provide:
+More consistent lead qualification
+Faster processing of potential companies
+Better personalized outreach
+Reduced repetitive manual work
+Standardized research output
+Better alignment with the organization's internal workflow
+
+The system could eventually be integrated with Python, web research APIs, databases, Google Sheets, or CRM systems.
+
+
+6. Risks and Limitations
+Fine-tuning has several limitations:
+
+Poor-quality training data can produce poor results.
+The model may overfit to training examples.
+Fine-tuning does not provide up-to-date company information.
+Hallucinations can still occur.
+The dataset may require periodic updates.
+Sensitive information must be handled appropriately.
+
+
+7. Final Decision
+Fine-tuning is potentially justified for the Lead Research Assistant because the task involves repeated internal patterns such as lead qualification, structured research, and personalized communication.
