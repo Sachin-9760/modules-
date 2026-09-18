@@ -1,0 +1,5 @@
+prompt,category
+"Explain session state in Streamlit.","Streamlit"
+"Compare two model responses for clarity.","Evaluation"
+"Summarize a customer support message.","LLM Evaluation"
+"Explain why feedback is useful in model evaluation.","Evaluation"
